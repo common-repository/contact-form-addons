@@ -1,0 +1,17 @@
+
+<div class="control-box">
+    <fieldset>
+        <legend><?php echo sprintf( esc_html( $description ) ); ?></legend>
+
+</fieldset>
+</div>
+
+<div class="insert-box">
+    <input type="text" name="<?php echo $type; ?>" class="tag code" readonly="readonly" onfocus="this.select()" />
+
+    <div class="submitbox">
+        <input type="button" class="button button-primary insert-tag" value="<?php echo esc_attr( __( 'Insert Tag', 'contact-form-7' ) ); ?>" />
+    </div>
+
+    <br class="clear" />
+</div>
